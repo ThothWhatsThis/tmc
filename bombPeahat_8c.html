@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>src/enemy/bombPeahat.c file | The Minish Cap Docs</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
+  <link rel="stylesheet" href="m-dark+documentation.compiled.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://zelda64.dev/favicon.ico" type="image/vnd.microsoft.icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#22272e" />
+</head>
+<body>
+<header><nav id="navigation">
+  <div class="m-container">
+    <div class="m-row">
+      <span id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m">
+        <a href="https://github.com/zeldaret/tmc">The Minish Cap</a> <span class="m-breadcrumb">|</span> <a href="index.html" class="m-thin">Docs</a>
+      </span>
+      <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
+        <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+          <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
+        </svg></a>
+        <a id="m-navbar-show" href="#navigation" title="Show navigation"></a>
+        <a id="m-navbar-hide" href="#" title="Hide navigation"></a>
+      </div>
+      <div id="m-navbar-collapse" class="m-col-t-12 m-show-m m-col-m-none m-right-m">
+        <div class="m-row">
+          <ol class="m-col-t-6 m-col-m-none">
+            <li><a href="modules.html">Modules</a></li>
+            <li><a href="pages.html">Pages</a></li>
+          </ol>
+          <ol class="m-col-t-6 m-col-m-none" start="3">
+            <li><a href="annotated.html">Classes</a></li>
+            <li><a href="files.html">Files</a></li>
+            <li class="m-show-m"><a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
+              <use href="#m-doc-search-icon-path" />
+            </svg></a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav></header>
+<main><article>
+  <div class="m-container m-container-inflatable">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <h1>
+          <span class="m-breadcrumb"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a>/</span><span class="m-breadcrumb"><a href="dir_7f3c543466604c3c9c610247f30bd681.html">enemy</a>/</span>bombPeahat.c <span class="m-thin">file</span>
+        </h1>
+        <p>Bomb Peahat enemy.</p>
+        <nav class="m-block m-default">
+          <h3>Contents</h3>
+          <ul>
+            <li>
+              Reference
+              <ul>
+                <li><a href="#func-members">Functions</a></li>
+                <li><a href="#var-members">Variables</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <section id="func-members">
+          <h2><a href="#func-members">Functions</a></h2>
+          <dl class="m-doc">
+            <dt id="a6aba31e77a9063278aa9f51312c298b4">
+              <span class="m-doc-wrap-bumper">void <a href="#a6aba31e77a9063278aa9f51312c298b4" class="m-doc-self">sub_0802AD1C</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*,
+              <a href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba" class="m-doc">u32</a>)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a092c4ca99c5ff04224672ca844575870">
+              <span class="m-doc-wrap-bumper">void <a href="#a092c4ca99c5ff04224672ca844575870" class="m-doc-self">sub_0802AD54</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a841766dbcbcc665c56fca04a813a0ecb">
+              <span class="m-doc-wrap-bumper">void <a href="#a841766dbcbcc665c56fca04a813a0ecb" class="m-doc-self">sub_0802B048</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a68c4928361ec80bc0bab7d7c15cde11a">
+              <span class="m-doc-wrap-bumper">void <a href="#a68c4928361ec80bc0bab7d7c15cde11a" class="m-doc-self">sub_0802ACDC</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*,
+              <a href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba" class="m-doc">u32</a>)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a2f06d75804c3eb8b261b81524f3f59f6">
+              <span class="m-doc-wrap-bumper">void <a href="#a2f06d75804c3eb8b261b81524f3f59f6" class="m-doc-self">sub_0802ADDC</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a7b47507fa67d89cbbcf39f76030099f3">
+              <span class="m-doc-wrap-bumper">void <a href="#a7b47507fa67d89cbbcf39f76030099f3" class="m-doc-self">sub_0802AC40</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="ad2b333a3e34e1b3cf45ecf77556125cf">
+              <span class="m-doc-wrap-bumper">auto <a href="#ad2b333a3e34e1b3cf45ecf77556125cf" class="m-doc-self">sub_0802B234</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*) -&gt; <a href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae" class="m-doc">bool32</a></span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a16909161022358f27e7312f6167b860e">
+              <span class="m-doc-wrap-bumper">auto <a href="#a16909161022358f27e7312f6167b860e" class="m-doc-self">sub_0802B250</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*) -&gt; <a href="structEntity.html" class="m-doc">Entity</a>*</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="ac08782d07fc5c02c96f184fac57ba43d">
+              <span class="m-doc-wrap-bumper">void <a href="#ac08782d07fc5c02c96f184fac57ba43d" class="m-doc-self">sub_0802B264</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>*)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="aa5d67308f45e5f67607f435ad192b9b6">
+              <span class="m-doc-wrap-bumper">void <a href="#aa5d67308f45e5f67607f435ad192b9b6" class="m-doc-self">BombPeahat</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a852d7aaa4335e10c8c44c896932d185e">
+              <span class="m-doc-wrap-bumper">void <a href="#a852d7aaa4335e10c8c44c896932d185e" class="m-doc-self">BombPeahat_OnTick</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a15fec2871d9931746fdf6044ee49e3d7">
+              <span class="m-doc-wrap-bumper">void <a href="#a15fec2871d9931746fdf6044ee49e3d7" class="m-doc-self">BombPeahat_OnCollision</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a9e7a6d367e30b69604ec3ca19b209b04">
+              <span class="m-doc-wrap-bumper">void <a href="#a9e7a6d367e30b69604ec3ca19b209b04" class="m-doc-self">BombPeahat_OnGrabbed</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a94a7e06fb4949e6c80a26f2e5ec02d91">
+              <span class="m-doc-wrap-bumper">void <a href="#a94a7e06fb4949e6c80a26f2e5ec02d91" class="m-doc-self">sub_0802A8E0</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="ab49cfae48e1b756ba1c6627bd8c8915a">
+              <span class="m-doc-wrap-bumper">void <a href="#ab49cfae48e1b756ba1c6627bd8c8915a" class="m-doc-self">sub_0802A8EC</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="aa630e0e030ae88f8bd8f8b6b8e05770a">
+              <span class="m-doc-wrap-bumper">void <a href="#aa630e0e030ae88f8bd8f8b6b8e05770a" class="m-doc-self">sub_0802A8F4</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a98ac7a840ec75058fe552768f29d3596">
+              <span class="m-doc-wrap-bumper">void <a href="#a98ac7a840ec75058fe552768f29d3596" class="m-doc-self">sub_0802A8FC</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a2350af3848c0a6aa46785f868cdd3c40">
+              <span class="m-doc-wrap-bumper">void <a href="#a2350af3848c0a6aa46785f868cdd3c40" class="m-doc-self">nullsub_143</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="af648ba8a4dbad7dcec6702791dd21907">
+              <span class="m-doc-wrap-bumper">void <a href="#af648ba8a4dbad7dcec6702791dd21907" class="m-doc-self">sub_0802A91C</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a6c217a284392428c65eaaef0dc1dccbb">
+              <span class="m-doc-wrap-bumper">void <a href="#a6c217a284392428c65eaaef0dc1dccbb" class="m-doc-self">sub_0802A924</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="ab722ba11dfdb0e834748c73dcd5d411f">
+              <span class="m-doc-wrap-bumper">void <a href="#ab722ba11dfdb0e834748c73dcd5d411f" class="m-doc-self">sub_0802A9A8</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a5478e7760e40ba77408dc5365f585424">
+              <span class="m-doc-wrap-bumper">void <a href="#a5478e7760e40ba77408dc5365f585424" class="m-doc-self">sub_0802AA40</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a709befe04faab620c5fd9421f212b72e">
+              <span class="m-doc-wrap-bumper">void <a href="#a709befe04faab620c5fd9421f212b72e" class="m-doc-self">sub_0802AAC0</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a6a5eb43aedbc8a6ead49c5a1e09d7100">
+              <span class="m-doc-wrap-bumper">void <a href="#a6a5eb43aedbc8a6ead49c5a1e09d7100" class="m-doc-self">sub_0802AB40</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a56bd3af44166f2ebbe59e45c30f4f8ac">
+              <span class="m-doc-wrap-bumper">void <a href="#a56bd3af44166f2ebbe59e45c30f4f8ac" class="m-doc-self">sub_0802AC08</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a4b5cd2cc53051c181a8146a163ec36f9">
+              <span class="m-doc-wrap-bumper">void <a href="#a4b5cd2cc53051c181a8146a163ec36f9" class="m-doc-self">sub_0802AE24</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a18dc473c9176e15e2a4c956cb529eff2">
+              <span class="m-doc-wrap-bumper">void <a href="#a18dc473c9176e15e2a4c956cb529eff2" class="m-doc-self">sub_0802AE68</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="ab1236844783e0f2839f25b8578df5e56">
+              <span class="m-doc-wrap-bumper">void <a href="#ab1236844783e0f2839f25b8578df5e56" class="m-doc-self">sub_0802AEBC</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a8aedbbc3746be1713af0ca15087bd6bf">
+              <span class="m-doc-wrap-bumper">void <a href="#a8aedbbc3746be1713af0ca15087bd6bf" class="m-doc-self">sub_0802AED4</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a2fc0ae7c9989b5fe6431e8a63cce3811">
+              <span class="m-doc-wrap-bumper">void <a href="#a2fc0ae7c9989b5fe6431e8a63cce3811" class="m-doc-self">sub_0802AF28</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="aa49c31348ce400cdf102ee8dd548f1e4">
+              <span class="m-doc-wrap-bumper">void <a href="#aa49c31348ce400cdf102ee8dd548f1e4" class="m-doc-self">sub_0802AF50</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a729826178ae1eb228cdc8aa66443a06f">
+              <span class="m-doc-wrap-bumper">void <a href="#a729826178ae1eb228cdc8aa66443a06f" class="m-doc-self">sub_0802AF58</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="aa9e64fab134dc08aa1e571775ad8abbe">
+              <span class="m-doc-wrap-bumper">void <a href="#aa9e64fab134dc08aa1e571775ad8abbe" class="m-doc-self">sub_0802AF74</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a8084e48b5bd188127c1e547958f19a73">
+              <span class="m-doc-wrap-bumper">void <a href="#a8084e48b5bd188127c1e547958f19a73" class="m-doc-self">sub_0802AF94</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a8219cadc1d49c4092bd07a15297bc47e">
+              <span class="m-doc-wrap-bumper">void <a href="#a8219cadc1d49c4092bd07a15297bc47e" class="m-doc-self">sub_0802AF9C</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="aa173831f1f5f4aa936d670baaa0d6970">
+              <span class="m-doc-wrap-bumper">void <a href="#aa173831f1f5f4aa936d670baaa0d6970" class="m-doc-self">sub_0802AFC8</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="afce471759236f94a8c72dd193d21504c">
+              <span class="m-doc-wrap-bumper">void <a href="#afce471759236f94a8c72dd193d21504c" class="m-doc-self">sub_0802B1A0</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="afd2135f9ba231d7b0baa7a97a63e64a4">
+              <span class="m-doc-wrap-bumper">void <a href="#afd2135f9ba231d7b0baa7a97a63e64a4" class="m-doc-self">sub_0802B1BC</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a5845285d93f70aea572ab11a988252ce">
+              <span class="m-doc-wrap-bumper">void <a href="#a5845285d93f70aea572ab11a988252ce" class="m-doc-self">sub_0802B204</a>(</span><span class="m-doc-wrap"><a href="structEntity.html" class="m-doc">Entity</a>* this)</span>
+            </dt>
+            <dd><span></span></dd>
+          </dl>
+        </section>
+        <section id="var-members">
+          <h2><a href="#var-members">Variables</a></h2>
+          <dl class="m-doc">
+            <dt id="af477d85b39f08b2e3b6729241c7e6cc2">
+              void(*const <a href="#af477d85b39f08b2e3b6729241c7e6cc2" class="m-doc-self">BombPeahat_Functions</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="abb3eca464c521c00e379d51d51d4c3a2">
+              void(*const <a href="#abb3eca464c521c00e379d51d51d4c3a2" class="m-doc-self">gUnk_080CD108</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a6cc49bb7e383cf51f38a03108e8220f9">
+              void(*const <a href="#a6cc49bb7e383cf51f38a03108e8220f9" class="m-doc-self">gUnk_080CD120</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a101fd5630063c887f87f3d2cb604acc9">
+              void(*const <a href="#a101fd5630063c887f87f3d2cb604acc9" class="m-doc-self">gUnk_080CD134</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a61d1515141f71d750d8f6d0a89b48385">
+              void(*const <a href="#a61d1515141f71d750d8f6d0a89b48385" class="m-doc-self">gUnk_080CD140</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a0b4c96d04eb306878e182faedc809b3e">
+              void(*const <a href="#a0b4c96d04eb306878e182faedc809b3e" class="m-doc-self">gUnk_080CD158</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="a6c4b5d49a7848b07794481a7fe9bec53">
+              const <a href="structHitbox.html" class="m-doc">Hitbox</a> <a href="#a6c4b5d49a7848b07794481a7fe9bec53" class="m-doc-self">gUnk_080CD16C</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="ac6457e7fefd1faa225c46d47646d07c2">
+              const <a href="structHitbox.html" class="m-doc">Hitbox</a> <a href="#ac6457e7fefd1faa225c46d47646d07c2" class="m-doc-self">gUnk_080CD174</a>
+            </dt>
+            <dd><span></span></dd>
+            <dt id="abd5db82bcc750e706c09a6fe9c02bd4c">
+              const <a href="structHitbox.html" class="m-doc">Hitbox</a> <a href="#abd5db82bcc750e706c09a6fe9c02bd4c" class="m-doc-self">gUnk_080CD17C</a>
+            </dt>
+            <dd><span></span></dd>
+          </dl>
+        </section>
+      </div>
+    </div>
+  </div>
+</article></main>
+<div class="m-doc-search" id="search">
+  <a href="#!" onclick="return hideSearch()"></a>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-m-8 m-push-m-2">
+        <div class="m-doc-search-header m-text m-small">
+          <div><span class="m-label m-default">Tab</span> / <span class="m-label m-default">T</span> to search, <span class="m-label m-default">Esc</span> to close</div>
+          <div id="search-symbolcount">&hellip;</div>
+        </div>
+        <div class="m-doc-search-content">
+          <form>
+            <input type="search" name="q" id="search-input" placeholder="Loading &hellip;" disabled="disabled" autofocus="autofocus" autocomplete="off" spellcheck="false" />
+          </form>
+          <noscript class="m-text m-danger m-text-center">Unlike everything else in the docs, the search functionality <em>requires</em> JavaScript.</noscript>
+          <div id="search-help" class="m-text m-dim m-text-center">
+            <p class="m-noindent">Search for symbols, directories, files, pages or
+            modules. You can omit any prefix from the symbol or file path; adding a
+            <code>:</code> or <code>/</code> suffix lists all members of given symbol or
+            directory.</p>
+            <p class="m-noindent">Use <span class="m-label m-dim">&darr;</span>
+            / <span class="m-label m-dim">&uarr;</span> to navigate through the list,
+            <span class="m-label m-dim">Enter</span> to go.
+            <span class="m-label m-dim">Tab</span> autocompletes common prefix, you can
+            copy a link to the result using <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">L</span> while <span class="m-label m-dim">⌘</span>
+            <span class="m-label m-dim">M</span> produces a Markdown link.</p>
+          </div>
+          <div id="search-notfound" class="m-text m-warning m-text-center">Sorry, nothing was found.</div>
+          <ul id="search-results"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="search-v2.js"></script>
+<script>
+  Search.download(window.location.pathname.substr(0, window.location.pathname.lastIndexOf('/') + 1) + 'searchdata-v2.bin');
+</script>
+<footer><nav>
+  <div class="m-container">
+    <div class="m-row">
+      <div class="m-col-l-10 m-push-l-1">
+        <p>The Minish Cap Docs. Created with <a href="https://doxygen.org/">Doxygen</a> 1.9.1 and <a href="https://mcss.mosra.cz/">m.css</a>.</p>
+      </div>
+    </div>
+  </div>
+</nav></footer>
+</body>
+</html>
